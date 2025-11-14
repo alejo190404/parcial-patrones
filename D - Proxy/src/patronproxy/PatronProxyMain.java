@@ -10,7 +10,7 @@ public class PatronProxyMain {
         int proceso = 1;
         String parametro = "SIN";
 
-        if (parametro.equals("CON")){
+        if (parametro.equals("SIN")){
             InterfaceProcesos ProcesoActivo = FabricaServicios.CrearEjecucionProceso();
 
             try {
